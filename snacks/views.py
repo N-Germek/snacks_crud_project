@@ -30,5 +30,3 @@ class SnackDeleteView(DeleteView):
     template_name = 'snack_delete.html'
     model = Snack
     success_url = reverse_lazy('snack_list')
-
-# Create your views here.
