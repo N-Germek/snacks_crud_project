@@ -2,10 +2,11 @@
 
 {% block content %}
     <section>
-        <h2>
-            <p>Snack Name</p>
-            <p>Snack Purchaser</p>
-            <p>Snack Description</p>
-        </h2>
+        <h3>Snack Information</h3>
+            <p>Title: {{ snack.title }}</p>
+            <p>Purchaser: {{ snack.purchaser }}</p>
+            <p>Description: {{ snack.description }}</p>
+            <button><a href="{% url 'snack_delete' snack.pk %}">Delete</a></button>
+            <button><a href="{% url 'snack_update' snack.pk %}">Update</a></button>
     </section>
 {% endblock content %}
