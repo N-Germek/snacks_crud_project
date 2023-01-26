@@ -1,6 +1,11 @@
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Snack
 from django.urls import reverse_lazy
+from django.shortcuts import render
+
+
+def index(request):
+    return render(request, '_base.html')
 
 
 class SnackListView(ListView):
