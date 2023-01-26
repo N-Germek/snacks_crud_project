@@ -36,16 +36,26 @@ PyCharm
 ## Recent Updates
 
 #### V 1.0
+
 1.0: *Initiated project, created app, updated urls.py and settings.py, created models and templates* - 07 January 2023
+
 1.1: *Created README.md and updated contents of files, troubleshoot models issue, added tests* - 09 January 2023
+
 1.2: *Build on the project, delete database to create custom user.* - 11 January 2023
+
+1.3: *Finalized Custom User model and CSS.* - 25 January 2023
 
 ---
 
 ## Change Log
+
 1.0: *Initiated project and application almost to completion* - 07 January 2023
+
 1.1: *Created tests and updated content of files, troubleshoot models issues, added tests* - 09 January 2023
+
 1.2: *Build on the project, deleted database to create custom user.* - 11 January 2023
+
+1.3: *Finalized Custom User model and CSS.* - 25 January 2023
 
 ---
 
