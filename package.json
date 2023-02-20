@@ -1,0 +1,10 @@
+{
+  "name": "snacks_crud_project",
+  "version": "1.0.0",
+  "dependencies": {
+    "flowbite": "^1.6.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
