@@ -34,28 +34,28 @@ class SnackTests(TestCase):
         url = reverse("snack_list")
         response = self.client.get(url)
         self.assertTemplateUsed(response, "snack_list.html")
-        self.assertTemplateUsed(response, "base.html")
+        self.assertTemplateUsed(response, "_base.html")
 
     def test_snack_detail_page_template(self):
         url = reverse("snack_detail")
         response = self.client.get(url)
         self.assertTemplateUsed(response, "snack_detail.html")
-        self.assertTemplateUsed(response, "base.html")
+        self.assertTemplateUsed(response, "_base.html")
 
     def test_snack_delete_page_template(self):
         url = reverse("snack_delete")
         response = self.client.get(url)
         self.assertTemplateUsed(response, "snack_delete.html")
-        self.assertTemplateUsed(response, "base.html")
+        self.assertTemplateUsed(response, "_base.html")
 
     def test_snack_create_template(self):
         url = reverse("snack_create")
         response = self.client.get(url)
         self.assertTemplateUsed(response, "snack_create.html")
-        self.assertTemplateUsed(response, "base.html")
+        self.assertTemplateUsed(response, "_base.html")
 
     def test_snack_update_page_template(self):
         url = reverse("snack_update")
         response = self.client.get(url)
         self.assertTemplateUsed(response, "snack_update.html")
-        self.assertTemplateUsed(response, "base.html")
+        self.assertTemplateUsed(response, "_base.html")
