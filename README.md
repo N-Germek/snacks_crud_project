@@ -45,6 +45,9 @@ PyCharm
 
 1.3: *Finalized Custom User model and CSS.* - 25 January 2023
 
+1.4: *Added Requirements.txt and updated README.md file. added user manager object in models.py.* - 20 February 2023
+
+
 ---
 
 ## Change Log
@@ -56,6 +59,8 @@ PyCharm
 1.2: *Build on the project, deleted database to create custom user.* - 11 January 2023
 
 1.3: *Finalized Custom User model and CSS.* - 25 January 2023
+
+1.4: *Added Requirements.txt and updated README.md file. added user manager object in models.py.* - 20 February 2023
 
 ---
 
